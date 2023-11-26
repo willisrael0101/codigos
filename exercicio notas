@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("digite o valo da nota n1: ");
+        float n1 = sc.nextFloat();
+        System.out.println("digite o valo da nota n2: ");
+        float n2 = sc.nextFloat();
+        float media= (n1+n2)/2;
+                System.out.print("valor da media é: " + media);
+
+
+        }
+    }
