@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner us = new Scanner(System.in);
+        System.out.print("digite a nota do aluno n1: ");
+        double n1 = us.nextDouble();
+        System.out.print("digite o valor da nota do aluno n2: ");
+        double n2 = us.nextDouble();
+        double resultado = (n1 +n2) /2;
+        System.out.println("sua média é: " + resultado);
+        if (resultado >= 6)
+        {
+            System.out.print("parabéns você passou!");
+        }
+    else if (resultado >= 5)
+        {
+System.out.print("você está de recuperação");
+        }
+    else
+        {
+            System.out.print("você foi reprovado, sorry!");
+        }
+    }
+}
