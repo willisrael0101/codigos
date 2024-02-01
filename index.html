@@ -1,89 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> 
-<meta charset="UTF-8">
-<title> Portfólio </title>
- <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        section {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            display: inline;
-            margin-right: 10px;
-        }
-
-        img {
-            max-width: 100%;
-            height: 150px;
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-
-        div:nth-child(3) {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width , initial-scale 1.0">
+    <title>mqbarberr</title>
+    <meta name="description" content="Curso para barbeiro iniciante,aprenda do zero! ">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body> 
-<header> <h1> Portfólio </h1>
+<body>
+    <header>
+        <nav>
+        <span class="logo">mqbarberr</span>
+        <ul class="menu">
+            <li><a> Home </a></li>
+            <li><a> Cortes </a></li>
+            <li><a> Novidades </a></li>
+            <li><a> Sobre </a></li>
+        </ul>
+        <a class="instagram"> <img src="assets/R.png" border-radius="10rem"; width="25rem";/> Instagram</a>
+        </nav>
+    </header>
+    <main>
+        <div class="principal">
+ <section class="hero">
+    <header class="conteudo">
+        <span class="destaque marrom"> novidades</span>
+        <h1>Barbeiro do zero!</h1>
+    <hr/>
+    <h3 class="hero-subtitulo">Aprenda a se tornar um barbeiro profissional do zero 📏 </h3>
 </header>
-<section> 
-<div> 
-<ul>
-<li><a href="index.html ">Pagina inicial</a></li>
-<li><a href="sobre.html ">Sobre</a></li>
-<li><a href="serviços.html ">Serviços</a></li>
-<li><a href="contato.html ">Contato</a></li>
-</ul>
+<div class="hero-imagens-container">
+    <figure><img src="assets/08.jpeg"/></figure>
+    <figure><img src="assets/01.jpeg"/></figure>
+    <figure><img src="assets/03.jpeg"/></figure>
+    <figure><img src="assets/04.jpeg"/></figure>
+    <figure><img src="assets/02.jpeg"/></figure>
+    <figure><img src="assets/06.jpeg"/></figure>
+    <figure><img src="assets/07.jpeg"/></figure>
+    <figure><img src="assets/05.jpeg"/></figure>
+    <figure><img src="assets/logo.jpeg"/></figure>
 </div>
 </section>
-<div>
-<img src="img/eu.jpg" alt= "minha imagem">
 </div>
-<div> 
-<h4> olá, </h4>
-<h1> <strong> Eu sou william Israel </strong> </h1>
-<h4> Devops </h4>
+<section class="botao-conteiner">
+<button type="button"> 
+    <img src="assets/chevrons-down.svg"/></button>
+</section>
+<section class="sobre">
+    <header class="sobre-cabecalho">
+        <span class="destaque marrom">sobre</span>
+        <h2 class="sobre-titulo"> Um pouco da história...</h2>
+        <p class="sobre-paragrafo">Nascido e criado em comunidade, assim como qualquer um em busca do sucesso encontrei uma forma de alcança-lo sendo barbeiro profissional,<br/> e hoje depois de tudo que construir estou passando meus conhecimentos para que você também possa ser bem-sucedido.</p>
+    </header>
+    <div class="dicas-card-conteiner">
+        <div class="dicas-card">
+            <header class="dicas-cabecalho">
+                <div class="dicas-detalhes">
+                <span class="destaque amarelo">dicas📏</span>
+                <h3 class="dicas-titulo"> corte degradê</h3>
+                </div>
+                <p class=" avaliacao">Extraordinário · 1/4 </p>
+            </header>
+            <p class="descricao"><strong>No Fade:</strong> para deixar o corte ainda mais estiloso, combine-o com um topete!<br/> Use cera ou pomada nas pontas dos fios para deixar os fios levantados por mais tempo.</p>
+        <div class="dicas-autor">
+            <img src="assets/logo.jpeg"/>
+            <span> miqueias barberr</span>
+        </div>
+        </div>
+<!-- 1copia-->
+<div class="dicas-card">
+    <header class="dicas-cabecalho">
+        <div class="dicas-detalhes">
+        <span class="destaque amarelo">dicas📏</span>
+        <h3 class="dicas-titulo"> No pezinho</h3>
+        </div>
+        <p class=" avaliacao">Extraordinário · 2/4 </p>
+    </header>
+    <p class="descricao"><strong>Dica:</strong> Prenda todo o cabelo para trás com a ajuda de uma presilha para não correr o<br/> risco de passar a máquina na parte frontal dos fios.</p>
+<div class="dicas-autor">
+    <img src="assets/logo.jpeg"/>
+    <span> miqueias barberr</span>
 </div>
-<footer> <p> 2023 meu Portfólio. Todos os direitos reservados.</p> </footer>
+</div>
+
+<!-- 1copia-->
+<div class="dicas-card">
+    <header class="dicas-cabecalho">
+        <div class="dicas-detalhes">
+        <span class="destaque amarelo">dicas📏</span>
+        <h3 class="dicas-titulo"> corte americano</h3>
+        </div>
+        <p class=" avaliacao">Extraordinário · 3/4 </p>
+    </header>
+    <p class="descricao"><strong>Ja dizia filipe ret:</strong> Do corte americano e o bigodin finin</p>
+<div class="dicas-autor">
+    <img src="assets/logo.jpeg"/>
+    <span> miqueias barberr</span>
+</div>
+</div>
+
+<!-- 1copia-->
+<div class="dicas-card">
+    <header class="dicas-cabecalho">
+        <div class="dicas-detalhes">
+        <span class="destaque amarelo">pega a visão🔥 </span>
+        <h3 class="dicas-titulo"> frase do dia</h3>
+        </div>
+        <p class=" avaliacao">Extraordinário · 4/4 </p>
+    </header>
+    <p class="descricao">Se até um relógio que está parado acerta as horas 2 vezes ao dia, quem dirá você que corre todos os dias 🚀 </p>
+<div class="dicas-autor">
+    <img src="assets/logo.jpeg"/>
+    <span> miqueias barberr</span>
+</div>
+</div>
+
+    </div>
+
+</section>
+    </main>
+    <footer>
+<p class="footer-copy">Copyright &lt; MIQUEIAS BARBERR/&gt; 2024</p>
+ <p class="footer-autor"> Feito por william israel</p>
+</footer>
 </body>
+</html>
